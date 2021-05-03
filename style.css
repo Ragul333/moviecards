@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#googleSearching {
+    padding: 30%;
+    padding:5px 25%;
+}
+
+body{
+    background-color: whitesmoke;
+/*     background-image: url(225718723.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+#queryString{
+    width: 350px;
+}
+
+#dataDisplay,#dataDisplay2,#dataDisplay3,#dataDisplay4{
+    max-height:300px;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-content: left;
+    
+}
+
+
+.card{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+
+#cards,#cards2,#cards3,#cards4{
+    min-width: 150px;
+    height: auto;
+    line-height: 110px;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 2px;
+    margin-bottom: 8px;
+}
+
+#dataDisplay::-webkit-scrollbar{
+    width: 10;
+}
+
+
+#dataDisplay::-webkit-scrollbar{
+    width: 10;
+}
+
+
+#dataDisplay3::-webkit-scrollbar{
+    width: 10;
+}
